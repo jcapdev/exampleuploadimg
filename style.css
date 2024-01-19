@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.inputFile {
+   display: none;      
+}
+
+label {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  white;
+    margin-bottom: 10px;
+    font-size: 100px;
+    background: linear-gradient(45deg,blue,red);
+    cursor: pointer;
+}
+
+button{
+     padding: 20px 25px;
+     background: cornflowerblue;
+     color:white;
+     border:none;
+     margin-bottom: 10px;
+     cursor: pointer;
+     font-size: 20px;
+     font-weight: 900;
+}
+.bar {
+    height: 50px;
+    width: 500px;
+    background: grey;
+    margin-bottom: 10px;
+}
+.progress {
+    background: linear-gradient(12deg, red , blue );
+    height: 100%;
+    width: 0%;
+}
+
+.FileText{
+    margin-bottom: 10px;
+}
+
+.uploadPercentage{
+    font-size: 25px;
+}
+
+.img{
+    height: 100px;
+    width: auto;
+    object-fit: contain;
+    display: none;
+    border: 5px solid cadetblue;
+}
+
+.imageUploader{
+    margin-top: 100px;
+}
